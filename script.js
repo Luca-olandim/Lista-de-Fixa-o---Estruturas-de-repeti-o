@@ -25,7 +25,7 @@ function somaPares(){
     }
     alert("A soma dos 50 primeiros números pares é: " + soma)
 }
-function numPrimo(){
+function primos(){
     let num = window.prompt()
     let divisores= 0
     for(let i = 0; i < num; i++){
