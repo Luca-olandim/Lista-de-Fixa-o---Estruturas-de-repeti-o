@@ -7,7 +7,7 @@ function anoNovo(){
     }
     console.log("Feliz ano novo")
 }
-function tabelaMultiplicacao(){
+function tabuada(){
     let num = window.prompt()
     for(let i = 0; i <= 10; i++){
         let x = i*num
