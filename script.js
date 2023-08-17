@@ -34,8 +34,8 @@ function primos(){
         } 
     }
     if(num%2 == divisores){
-        console.log(num+ " é um numero é primo")
+        console.log(num+ " é primo")
         }else {
-        console.log(num + " é um numero não é primo")
+        console.log(num + " não é primo")
     }
 }
