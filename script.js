@@ -25,17 +25,34 @@ function somaPares(){
     }
     alert("A soma dos 50 primeiros números pares é: " + soma)
 }
-function primos(){
+function primos() {
     let num = window.prompt()
-    let divisores= 0
-    for(let i = 0; i < num; i++){
-        if(divisores % num ==0){
-            divisores ++
-        } 
+    let divisores = 0;
+    
+    for (let i = 1; i <= num; i++) {
+        if (num % i === 0) {
+            divisores++;
+        }
     }
-    if(num%2 == divisores){
-        console.log(num+ " é primo")
-        }else {
-        console.log(num + " não é primo")
+    
+    if (divisores === 2) {
+        console.log(num + " é primo");
+    } else {
+        console.log(num + " não é primo");
+    }
+}
+function fibonacci() {
+    let n = window.prompt()
+    let a = 0
+    let b = 1
+    let c = 0
+    console.log(a);
+    console.log(b);
+    while ((n-2) > 0) {
+        c = a + b;
+        console.log(c);
+        a = b;
+        b = c;
+        n--
     }
 }
